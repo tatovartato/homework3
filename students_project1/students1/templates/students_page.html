@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Student</title>
+</head>
+<body>
+    <h1>Students Information</h1>
+    {% for i in students %}
+    <p>{{ i.name }} {{ i.surname }} - GPA: {{ i.gpa }}, Course: {{ i.course }}</p>
+    {% endfor %}
+
+</body>
+</html>
